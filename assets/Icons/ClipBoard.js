@@ -1,9 +1,9 @@
-import React, { Component } from "react"
-import Svg, { Path } from "react-native-svg"
+import React, {Component} from 'react';
+import Svg, {Path} from 'react-native-svg';
 
 export default class ClipBoard extends Component {
-  render(){
-    const { props } = this.props;
+  render() {
+    const {props} = this.props;
     return (
       <Svg width={38} height={53} viewBox="0 0 38 53" fill="none" {...props}>
         <Path
@@ -28,6 +28,6 @@ export default class ClipBoard extends Component {
           d="M6.857 20.4h24.286v2.04H6.857zM6.857 36.72h24.286v2.04H6.857zM6.857 28.56h24.286v2.04H6.857z"
         />
       </Svg>
-    )
+    );
   }
 }

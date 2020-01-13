@@ -1,5 +1,5 @@
-import React from "react"
-import Svg, { Path } from "react-native-svg"
+import React from 'react';
+import Svg, {Path} from 'react-native-svg';
 
 function Incognito(props) {
   return (
@@ -19,7 +19,7 @@ function Incognito(props) {
         fill="#3D3C3A"
       />
     </Svg>
-  )
+  );
 }
 
-export default Incognito
+export default Incognito;

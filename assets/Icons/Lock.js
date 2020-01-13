@@ -1,5 +1,5 @@
-import React from "react"
-import Svg, { Circle, Path, Ellipse } from "react-native-svg"
+import React from 'react';
+import Svg, {Circle, Path, Ellipse} from 'react-native-svg';
 
 function SvgComponent(props) {
   return (
@@ -8,7 +8,7 @@ function SvgComponent(props) {
       <Path d="M28.393 22l4.383 17.98-17.678.02 3.795-18h9.5z" fill="#3D3C3A" />
       <Ellipse cx={23.893} cy={17} rx={7.5} ry={7} fill="#3D3C3A" />
     </Svg>
-  )
+  );
 }
 
-export default SvgComponent
+export default SvgComponent;
